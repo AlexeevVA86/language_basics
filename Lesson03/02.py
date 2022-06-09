@@ -3,5 +3,12 @@
 # имя, фамилия, год рождения, город проживания, email, телефон.
 # Функция должна принимать параметры как именованные аргументы.
 # Осуществить вывод данных о пользователе одной строкой.
-print("hello")
-print("hellllllloooo")
+
+
+def data_user(name, f_name, yer, citi, email_adr, phone):
+    a = f"{name} {f_name} {yer} {citi} {email_adr} {phone}"
+    return a
+
+
+print(data_user('Tukk', 'Pligrim', '356',
+      'Shier', 'Vzlomshik@mail.ru', '+999999999'))
